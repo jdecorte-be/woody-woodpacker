@@ -1,6 +1,69 @@
+<header>
 <h1 align="center">
-	📖 Woody Woodpacker
+  <a href="https://github.com/jdecorte-be/woody-woodpacker"><img src=".assets/banner.png" alt="woody-woodpacker" ></a>
+  woody-woodpacker
+  <br>
 </h1>
+
+<p align="center">
+  A binary packer that encrypts ELF (32/64-bit) and Mach-O executables using RC4, injecting a self-decrypting shellcode payload at runtime
+</p>
+
+<p align="center">
+<a href="#">
+    <img src="https://img.shields.io/badge/school-42-00babc?logo=42&logoColor=white&labelColor=000000"
+         alt="school 42">
+  </a>
+<a href="#">
+    <img src="https://img.shields.io/badge/focus-Binary%20Packer-5D4037?logo=box&logoColor=white&labelColor=000000"
+         alt="focus Binary Packer">
+  </a>
+<a href="#">
+    <img src="https://img.shields.io/badge/type-CLI%20Tool-blue?logo=gnome-terminal&logoColor=white&labelColor=000000"
+         alt="type CLI Tool">
+  </a>
+<a href="#">
+    <img src="https://img.shields.io/badge/platform-Linux%20%7C%20macOS-lightgrey?logo=linux&logoColor=white&labelColor=000000"
+         alt="platform Linux | macOS">
+  </a>
+</p>
+
+<p align="center">
+<a href="#">
+    <img src="https://img.shields.io/badge/encryption-RC4-c11b17?logo=lock&logoColor=white&labelColor=000000"
+         alt="encryption RC4">
+  </a>
+  <a href="https://github.com/jdecorte-be/woody-woodpacker">
+    <img src="https://img.shields.io/badge/Focus-RE%20%26%20Security-critical?logoColor=white&labelColor=000000&color=F92672"
+         alt="woody-woodpacker reverse engineering">
+  </a>
+  <a href="http://jdecorte.com/writeups/x86-injection">
+    <img src="https://img.shields.io/badge/Homepage-Online-success?logo=vercel&logoColor=white&labelColor=000000&color=A6E22E"
+         alt="woody-woodpacker homepage">
+  </a>
+  <a href="https://github.com/jdecorte-be/woody-woodpacker/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-GPL--3.0-AE81FF?labelColor=000000"
+         alt="woody-woodpacker license">
+  </a>
+  <a href="https://github.com/jdecorte-be/woody-woodpacker/stargazers">
+    <img src="https://img.shields.io/github/stars/jdecorte-be/woody-woodpacker?logo=star&logoColor=white&labelColor=000000&color=E6DB74"
+         alt="woody-woodpacker stars">
+  </a>
+  <a href="https://github.com/jdecorte-be/woody-woodpacker/issues">
+    <img src="https://img.shields.io/github/issues/jdecorte-be/woody-woodpacker?logoColor=white&labelColor=000000&color=orange"
+         alt="woody-woodpacker issues">
+  </a>
+</p>
+<p align="center">
+  <a href="#how-to-make-a-packer">How to make a packer ?</a> •
+  <a href="#elf-program-header">ELF program header</a> •
+  <a href="#how-to-write-a-shellcode">How to write a shellcode</a> •
+  <a href="#how-to-test-your-shellcode">How to test your shellcode</a> •
+  <a href="#injections-techniques">Injections techniques</a> •
+  <a href="#segment-padding">Segment padding</a> •
+  <a href="#elf-shifting">Elf shifting</a>
+</p>
+</header>
 
 <p align="center">
 	<b><i>Binary Injection Elf & Macho</i></b><br>
