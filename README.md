@@ -65,18 +65,6 @@
 </p>
 </header>
 
-<p align="center">
-	<b><i>Binary Injection Elf & Macho</i></b><br>
-</p>
-
-<p align="center">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/jdecorte-be/42-WoodyWoodpacker?color=lightblue" />
-	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/jdecorte-be/42-WoodyWoodpacker?color=critical" />
-	<img alt="Code language count" src="https://img.shields.io/github/languages/count/jdecorte-be/42-WoodyWoodpacker?color=yellow" />
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jdecorte-be/42-WoodyWoodpacker?color=blue" />
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jdecorte-be/42-WoodyWoodpacker?color=green" />
-</p>
-
 ## How to make a packer ?
 
 A packer is a utility which wrap a binary file. It can compress it and/or encrypt it such a way that this binary, when launched, uncompress/decrypt by itself then run. This can be used to pass throught antivirus analysis or alleviate the target.
